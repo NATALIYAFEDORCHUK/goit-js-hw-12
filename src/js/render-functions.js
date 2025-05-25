@@ -45,11 +45,11 @@ export function clearGallery() {
 }
 
 export function showLoader() {
-  loader.classList.remove('hidden');
+  loader.classList.add('is-active');
 }
 
 export function hideLoader() {
-  loader.classList.add('hidden');
+  loader.classList.remove('is-active');
 }
 
 export function showLoadMoreButton() {
